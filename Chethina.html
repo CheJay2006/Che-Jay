@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2021/07/28/06/55/leaves-6498437_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body::after {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url('data:image/svg+xml,<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" version="1.1"><g id="surface1"><path fill="rgb(175, 208, 84)" d="M 47.894531 0.789062 C 46.320312 0.878906 45.480469 0.949219 44.601562 1.042969 C 37.023438 1.863281 29.746094 4.394531 23.386719 8.414062 C 20.214844 10.421875 17.402344 12.65625 14.757812 15.285156 C 7.773438 22.222656 3.027344 30.992188 1.113281 40.5 C -0.460938 48.332031 -0.132812 56.378906 2.070312 64.003906 C 4.0625 70.890625 7.507812 77.195312 12.277344 82.675781 C 16.65625 87.714844 22.109375 91.898438 28.074219 94.804688 C 37.914062 99.59375 49.078125 101.03125 59.875 98.886719 C 69.480469 96.976562 78.265625 92.300781 85.253906 85.371094 C 92.304688 78.386719 97.027344 69.65625 98.960938 60.039062 C 99.636719 56.675781 99.902344 53.996094 99.902344 50.285156 C 99.902344 47.910156 99.855469 46.925781 99.660156 45.128906 C 98.671875 35.808594 95.136719 27.136719 89.324219 19.773438 C 86.917969 16.722656 83.851562 13.675781 80.777344 11.285156 C 75.664062 7.304688 69.949219 4.410156 63.695312 2.628906 C 60.5625 1.742188 57.058594 1.128906 53.609375 0.867188 C 52.796875 0.804688 48.566406 0.746094 47.894531 0.789062 Z M 54.105469 24.300781 C 54.105469 24.355469 53.550781 25.921875 52.875 27.773438 L 51.636719 31.148438 L 41.390625 31.148438 C 34.375 31.148438 31 31.167969 30.683594 31.210938 C 27.867188 31.601562 25.414062 33.695312 24.371094 36.621094 C 24.054688 37.503906 23.910156 38.265625 23.839844 39.371094 C 23.800781 40.046875 23.789062 43.769531 23.804688 50.574219 C 23.828125 61.464844 23.816406 60.867188 24.101562 62.066406 C 24.316406 62.976562 24.832031 64.132812 25.339844 64.875 C 26.515625 66.597656 28.074219 67.726562 29.9375 68.203125 C 30.679688 68.394531 31.542969 68.433594 34.851562 68.433594 C 37.878906 68.433594 37.960938 68.441406 37.925781 68.542969 C 37.90625 68.601562 37.34375 70.148438 36.671875 71.972656 L 35.460938 75.296875 L 32.726562 75.296875 C 30.136719 75.296875 29.960938 75.285156 29.269531 75.164062 C 26.808594 74.714844 24.59375 73.707031 22.644531 72.152344 C 22.015625 71.648438 20.859375 70.496094 20.335938 69.847656 C 18.960938 68.15625 17.824219 65.824219 17.285156 63.601562 C 16.824219 61.660156 16.835938 62.175781 16.859375 49.355469 C 16.882812 36.71875 16.847656 37.765625 17.292969 35.953125 C 17.882812 33.523438 18.941406 31.398438 20.515625 29.5 C 21.140625 28.746094 21.625 28.257812 22.417969 27.597656 C 24.695312 25.699219 27.460938 24.53125 30.316406 24.265625 C 30.589844 24.234375 36.054688 24.210938 42.460938 24.207031 C 53.515625 24.199219 54.105469 24.207031 54.105469 24.300781 Z M 66.320312 24.363281 C 69.789062 24.90625 72.703125 26.371094 75.039062 28.757812 C 76.65625 30.402344 77.730469 32.21875 78.382812 34.417969 C 78.683594 35.445312 78.824219 36.347656 78.867188 37.523438 C 78.964844 40.515625 78.066406 43.320312 76.21875 45.777344 C 75.949219 46.136719 75.707031 46.445312 75.675781 46.460938 C 75.558594 46.539062 75.636719 46.605469 76.246094 47 C 80.933594 50.003906 83.621094 55.320312 83.308594 60.960938 C 83.027344 65.992188 80.328125 70.570312 76.113281 73.175781 C 74.453125 74.199219 72.570312 74.894531 70.546875 75.21875 L 69.757812 75.347656 L 56.425781 75.363281 L 43.085938 75.386719 L 43.273438 74.878906 C 43.371094 74.601562 43.949219 73.027344 44.546875 71.386719 L 45.640625 68.40625 L 57.613281 68.375 L 69.582031 68.347656 L 70.167969 68.191406 C 72.121094 67.652344 73.628906 66.617188 74.753906 65.019531 C 75.40625 64.097656 75.960938 62.777344 76.175781 61.632812 C 76.328125 60.832031 76.328125 59.308594 76.175781 58.503906 C 75.867188 56.859375 75.085938 55.316406 73.960938 54.152344 C 72.835938 52.976562 71.722656 52.308594 70.191406 51.894531 L 69.582031 51.730469 L 52.117188 51.703125 L 34.65625 51.671875 L 35.691406 48.835938 C 36.265625 47.273438 36.835938 45.703125 36.96875 45.351562 L 37.207031 44.695312 L 51.269531 44.679688 L 65.328125 44.667969 L 65.941406 44.511719 C 68.972656 43.753906 71.089844 41.820312 71.71875 39.214844 C 71.890625 38.496094 71.898438 37.390625 71.722656 36.699219 C 71.019531 33.839844 68.550781 31.78125 65.21875 31.253906 C 64.984375 31.21875 63.597656 31.171875 62.058594 31.15625 L 59.3125 31.121094 L 60.523438 27.789062 C 61.195312 25.960938 61.769531 24.398438 61.800781 24.324219 L 61.863281 24.183594 L 63.710938 24.21875 C 65.164062 24.242188 65.722656 24.269531 66.320312 24.363281 Z M 66.320312 24.363281 "/></g></svg>');
+  }
+
+@media screen and (max-width: 300px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 20%;
+  }
+}
+</style>
+</head>
+</head>
+<link rel="shortcut icon" href="https://media-hosting.imagekit.io/cee38acb786d4089/Untitled.png?Expires=1838718209&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jMZIqkjaiy8Lvk54ch5OOXJYd1hrA--t64T9vJtIw-2SVtezgHm1cQFom9sGMOOqPmEwnEmeMtRz6Imo3LaAX7WiUGckgRk0hPQPC6oOpPZuDbHkWlBTMjKBWrpmQheWUOBXboQaSy8LYOwGtzJnxz8s9RyghWs88fbTgJzRaERRCHN5mNWJwBXAr-vXHy3XNmeZuoH8R-PZMojHsjKy8YrhnYzplag87GN7J1TSLbe0y9iowWKwdVNVx3zemfl2KfLwtfL50ILy3sMyv0u21enxGVvFwep-2V8hPpjj2tkBhI04gjBjTuF9wTvcZ6iapUYvfUB6s9Y9XbcoVtJ3ww__" type="image/png" title="Che Jay">
+<meta property="og:image" itemprop="image" icon="https://media-hosting.imagekit.io/cee38acb786d4089/Untitled.png?Expires=1838718209&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jMZIqkjaiy8Lvk54ch5OOXJYd1hrA--t64T9vJtIw-2SVtezgHm1cQFom9sGMOOqPmEwnEmeMtRz6Imo3LaAX7WiUGckgRk0hPQPC6oOpPZuDbHkWlBTMjKBWrpmQheWUOBXboQaSy8LYOwGtzJnxz8s9RyghWs88fbTgJzRaERRCHN5mNWJwBXAr-vXHy3XNmeZuoH8R-PZMojHsjKy8YrhnYzplag87GN7J1TSLbe0y9iowWKwdVNVx3zemfl2KfLwtfL50ILy3sMyv0u21enxGVvFwep-2V8hPpjj2tkBhI04gjBjTuF9wTvcZ6iapUYvfUB6s9Y9XbcoVtJ3ww__" title="Che Jay"/>
+<meta property="og:type" content="website"/>
+<title>Che Jay</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .navbar {
+          left: 1rem;
+          overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 13px 15px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+
+        .active1 {
+          font-family: 'sans-serif', cursive;
+          background-color: transparent;
+          border: 2px solid rgba(255, 255, 255, 0.5);
+          border-radius: 20px;
+          backdrop-filter: blur(55px);
+          text-align: center; /* Align buttons to the center */
+          margin: 0 5px; /* Adjust the margin between buttons as needed */
+        }
+    </style>
+</head>
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+</style>
+<body>
+<br>
+<div class="navbar">
+  <a class="active1" href="C:\Users\user\Documents\Getting Started\.vscode\Chethina.html" onclick="myFunction()" onclick="alert('C:\Users\user\Documents\Getting Started\.vscode\Chethina.html')"><i class="fa fa-fw fa-home"></i> Home</a>
+  <div class="main" id="section4"></div>
+  <a class="active1" href="#text-section2" onclick="myFunction()" onclick="alert('#text-section2')"><i class="fa fa-address-book"></i> About</a>
+  <a class="active1" href="#contact-form" onclick="myFunction()" onclick="alert('#contact-form')"><i class="fa fa-phone"></i> Contacts</a>
+  </div>
+</body>
+<div class="navbar">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+<a>
+    <dd>
+      <img style="width:auto;" src="https://media-hosting.imagekit.io/cee38acb786d4089/Untitled.png?Expires=1838718209&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jMZIqkjaiy8Lvk54ch5OOXJYd1hrA--t64T9vJtIw-2SVtezgHm1cQFom9sGMOOqPmEwnEmeMtRz6Imo3LaAX7WiUGckgRk0hPQPC6oOpPZuDbHkWlBTMjKBWrpmQheWUOBXboQaSy8LYOwGtzJnxz8s9RyghWs88fbTgJzRaERRCHN5mNWJwBXAr-vXHy3XNmeZuoH8R-PZMojHsjKy8YrhnYzplag87GN7J1TSLbe0y9iowWKwdVNVx3zemfl2KfLwtfL50ILy3sMyv0u21enxGVvFwep-2V8hPpjj2tkBhI04gjBjTuF9wTvcZ6iapUYvfUB6s9Y9XbcoVtJ3ww__" width="80" height="80" title="C h e J a y | C a n v a s I n d u s t r i e s">
+    </dd>
+  </a>
+</body>
+  <br>
+  <label for="uname" style="color:ghostwhite;"><p style="font-family:cursive"><b>Canvas Industries</b></label></p>
+</body>
+</div>
+</div>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #567257;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border-radius: 0px 320px 0px 200px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1100px; /* only for demonstration, should be removed */
+  background: #567257;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1100px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #567257;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 97%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<center>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head></center></body></body></a></body></div>
+</label>
+</body>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+  <style>
+    .text-section1 p1 {
+        font-family: 'sans-serif', cursive; /* Handwritten font for "CheJay" */
+        color: white;
+        font-size: 7rem;
+    }
+    .text-section1 span {
+        font-family: 'Caveat'; /* Handwritten font for "CheJay" */
+        color: white;
+        font-size: 5rem;
+    }
+</style>
+<div class="text-section1">
+<font><p1># Canvas Industries</p1><br><span>Our digital web page introducing ourselves...</font></span>
+</div>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<header>
+  <style>
+        .text-section1 {
+            flex: 1;
+            padding: 40px;
+        }
+        .text-section1 h1 {
+            font-family: 'sans-serif', cursive; /* Handwritten font for "CheJay" */
+            font-size: 1.7em;
+            color: white;
+            margin: 0;
+        }
+        .text-section1 h1 span {
+            font-family: 'Caveat', cursive; /* Handwritten font for "CheJay" */
+            color: yellow white;
+            font-size: 0.7em;
+        }
+  </style>
+  <div class="text-section1">
+  <h1># A reminder to you <span><font style="'Lucida Handwriting', sans-serif;">World Environment Day "Thursday, June 5, 2025"...</font></span></h1>
+</div>
+<style>
+* {
+  box-sizing: border-box
+}
+body {
+   margin:0
+  }
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: sticky;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 20px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text p1 {
+    font-family: cursive;
+    color: black;
+  }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #A38772;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<body>
+<div class="slideshow-container">
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="https://media-hosting.imagekit.io/8ddf440c268a4755/Green%20Leaves%20Background%20Watercolor%20Presentation.png?Expires=1838718264&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=jZUi3R6NjNE-Jy~SKKj0T31Uk9vXyIluTzdO4465Z7z3jcy7WDCiLYLkOJ0EjOAeTSirZoJunD24pBbxQAvMEDApyOaWvDSrSgA8x6~3Az6oLT-TmuIYmRBAFa3pnjpR5oqwFKDk-7ydTaSvhPmQfPiA1hu2qyLDmUZ7xQxIhVkO35SqQMFeuBFdfaGYAyKA1avPhXbbDGzepnyXLUdnBQfH4yb1cRhnnFZipdPHhPItPK2MjDnO6aJOd~frRtXvbNagD-JDJWCDHXGO0c00pI~fccncjKKOmsgyRDQoelDVK-QawJyM5yIowdYU~FhYaVQejiwrM2lA~EBCmKgR1A__" style="width:100%" title="Canvas">
+  <div class="text"><p1 style="font-family:cursive;" color="black">Canvas</div></p1>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="https://cdn.shopify.com/app-store/listing_images/82eb1be69c41702b5f430ceb8ce89505/desktop_screenshot/CMbnvLPfufwCEAE=.png?height=900&width=1600" style="width:100%" title="One tree planted">
+  <div class="text"><p style="font-family:cursive;">One tree planted</div></p>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="https://packiro-content-prod.s3.eu-central-1.amazonaws.com/generic-stage/eden-pouches-plant-a-tree-packiro.png" style="width:100%" title="Eden Reforestation Projects">
+  <div class="text"><p style="font-family:cursive;">Eden Reforestation Projects</div></p>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="https://trees.org/wp-content/uploads/2024/02/logos-layover-flagship-1024x624.png" style="width:100%" title="Trees for the Future">
+  <div class="text"><p style="font-family:cursive;">Trees for the Future</div></p>
+</div>
+</center>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</header>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box; 
+  display: flex;
+  margin-right: 50px;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  right: 100px;
+}
+
+.column {
+  float: left; margin-right: 10px;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  background-color: back;
+  left: 100px;
+}
+
+.card {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  background-color: #567257;
+   left: 100px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #567257;
+  color: black;
+   left: 100px;
+}
+
+.container {
+  padding: 0 20px;
+  left: 5px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: flex;
+   
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+    display: flex;
+     
+  }
+}
+</style>
+</head>
+</header>
+<br>
+<body>
+<header>
+  <style>
+    .text-section2 {
+        flex: 1;
+        padding: 40px;
+    }
+    .text-section2 h1 {
+        font-family: 'sans-serif', cursive; /* Handwritten font for "CheJay" */
+        font-size: 1.7em;
+        color: white;
+        margin: 0;
+    }
+    .text-section2 h1 span {
+        font-family: 'Caveat', cursive; /* Handwritten font for "CheJay" */
+        color: yellow white;
+        font-size: 0.8em;
+    }
+</style>
+<div class="text-section2">
+<div class="main" id="text-section2">
+<h1># About Us Page <span><font style="'Lucida Handwriting', sans-serif;">Let's call you in simple words...</font></span></h1>
+</div>
+<br>
+<center>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+            background-color: #dfdbc5;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 100%;
+            background-color: #dfdbc5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 200px 0px 200px 0px;
+            overflow: hidden;
+        }
+        .text-section {
+            flex: 1;
+            padding: 40px;
+        }
+        .text-section h1 {
+            font-size: 1.8em;
+            color: #000;
+            margin: 0;
+        }
+        .text-section h1 span {
+            font-family: 'Caveat', cursive; /* Handwritten font for "Lucy" */
+            color: #019875;
+            font-size: 1.2em;
+        }
+        .text-section p {
+            font-size: 0.6em;
+            color: #333;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+        .text-section p strong {
+            font-weight: 700;
+        }
+        .signup-btn {
+            font-family: 'sans-serif', cursive;
+            margin-top: 20px;
+            padding: 5px;
+            background-color: #A38772;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 100;
+            display: inline-block;
+        }
+        .signup-btn:hover {
+            background-color: #A38772;
+        }
+        .image-section {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        /* New styles for form inputs */
+        .signup-form {
+            display: none;
+            margin-top: 20px;
+        }
+        .signup-form input {
+            font-family: 'sans-serif', cursive;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            font-size: 1.1em;
+        }
+        .signup-form input[type="text"], .signup-form input[type="password"] {
+            font-family: 'sans-serif', cursive;
+            font-size: 1em;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .signup-form input[type="checkbox"] {
+            font-family: 'sans-serif', cursive;
+            width: auto;
+        }
+        .signup-form input[type="submit"] {
+          font-family: 'sans-serif', cursive;
+            margin-top: 20px;
+            padding: 5px;
+            background-color: #A38772;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 100;
+            display: inline-block;
+        }
+        .signup-form input[type="submit"]:hover {
+            background-color: #A38772;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section: Text Content -->
+        <div class="text-section">
+            <h1>Hello, I'm <span><font style="'Caroline', sans-serif;">Chethina.</font></span></h1>
+            <p>
+                I am currently studying advanced level in a government school, I am studying IT subject. Now, my goal is to use my knowledge and help others! 
+            </p>
+            <p>
+                I can help you with anything like your website or blog, graphic design work, or video editing work. It's a process that I pride myself on being able to provide you with whatever you ask for in a very short period. 
+            </p>
+            <p>
+                I give it to you to <strong>enjoy very well.</strong> What are you waiting for?
+            <p>Come and join me!</p>
+            <a class="signup-btn" href="#" onclick="showSignupForm()">SIGN UP</a>
+
+            <!-- Signup form that appears on button click -->
+            <div class="signup-form" id="signupForm">
+                <form onsubmit="return submitForm()"> <!-- Submit button calls submitForm() -->
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <!-- Password field with visibility toggle -->
+                    <input type="text" id="password" placeholder="Enter your password" required>
+                    <label>
+                        <input type="checkbox" id="showPassword" onclick="togglePassword()"> Show Password
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <!-- Right Section: Image -->
+        <div class="image-section">
+            <!-- Replace with the image source of your uploaded image -->
+            <img src="https://media-hosting.imagekit.io/0ebb99ec4eb54a25/1e83923d-b61e-45f2-adb9-928660fbc312.jpg?Expires=1838717994&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=n00LfvtlSyHHA8jKq80rYpLK7RNrImxjDWiU9tYqYDvLQGfRsfjj3I8H-6eHLhBAkLuLtwTbgruqITrpIVGbZG99wqM2f-zWWYPPXfBkPvNavYlxxn7Z-OFcVNDYzblEMHEs5E85NNZe2jYa5LFW9FugVjNqJ13sy0oMQEb9lTb0TyPrF~EJfcbXAJlOmjX6HBeP2neJGl6feuW~DsQ25Ov7Ivla3EnWHGtxuCQdSzkjpbANMsiKhh47V6wHotxQQh2ImP6z2ejL3z5-Bb94N34Bq2ei1NndE47qZmYzYK3uux8xvjUgl6iCEq2dcDvEE7TwUHMFEs61p5EuwvBa2A__" title="Chethina Jayawardhana">
+        </div>
+    </div>
+    <script>
+        // Function to toggle signup form visibility
+        function showSignupForm() {
+            var form = document.getElementById("signupForm");
+            if (form.style.display === "none" || form.style.display === "") {
+                form.style.display = "block";
+            } else {
+                form.style.display = "none";
+            }
+        }
+
+        // Function to toggle password visibility
+        function togglePassword() {
+            var passwordInput = document.getElementById("password");
+            var checkbox = document.getElementById("showPassword");
+            if (checkbox.checked) {
+                passwordInput.type = "text"; // Show password
+            } else {
+                passwordInput.type = "password"; // Hide password
+            }
+        }
+
+        // Function to handle form submission and close the form
+        function submitForm() {
+            var form = document.getElementById("signupForm");
+            form.style.display = "none";  // Hide the form after submission
+            alert("The form has been submitted successfully!");
+            return false; // Prevent the page from reloading (form submission behavior)
+        }
+    </script>
+</body>
+</center>
+</header>
+<br>
+<style>
+  html {
+    box-sizing: border-box; 
+    display: flex;
+    margin-right: 50px;
+  }
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    right: 100px;
+  }
+  
+  .card {
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    background-color: #567257;
+     left: 100px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #567257;
+    color: black;
+     left: 100px;
+  }
+  </style> 
+  </body>
+<center>
+<body>
+  <header>
+    <style>
+      .text-section3 {
+          flex: 1;
+          padding: 40px;
+      }
+      .text-section3 h1 {
+          font-family: 'sans-serif', cursive; /* Handwritten font for "CheJay" */
+          font-size: 1.7em;
+          color: white;
+          margin: 0;
+      }
+      .text-section3 h1 span {
+          font-family: 'Caveat', cursive; /* Handwritten font for "CheJay" */
+          color: white;
+          font-size: 0.8em;
+      }
+  </style>
+    <div class="text-section3">
+      <h1># Visual Ads <span><font style="'Lucida Handwriting', sans-serif;">Please ignore the image below as it is an advertisement....</font></span></h1>
+    </div>
+    <style>
+      .container1 {
+        background-color: #567257;
+        border-radius: 10px;
+        border-radius: 0px 0px 0px 150px;
+      }
+    </style>
+<div class="container1">
+      <img src="https://media-hosting.imagekit.io/cb0aca56c2284393/Black%20Technology%20LinkedIn%20Banner.png?Expires=1838718057&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=BrlPyyZ7jib0KNGOcZa-rC98vwpQ5P49wn3bLNPaFbeamEOgBlVgRJHrQ5FJ9hqbGljsEKmAzF7vWFe6QqW0Yd5scFOfSzB8zrl63OVmOJp5Mvh3edpOLMz2DZ7FVtxq34q3mDyTXB4TISB~Ov5RByhhFuW4k25RkyVJrmnRNe7JGePQW42vgFgg6LYyiCO48XUUKFzzTRqXkC-YP4e-f2stYFLjZS~kWEwoG8XpZfwlt60O5aR2t23K3h~OVciXMz0vh6SoT42dx6rtoB32ADla9di~L~YRyzu270kKCm8CZJsj6Vfw-gOZkFl00CjOdvns1auPE6JbWwNTKPYwVA__" height="396px" width="90%" title="C A N V A S | I N D U S T R I E S"""/>
+  </center>
+<body>
+  <br>
+  <center>
+    <div class="contact-form">
+      <div class="main" id="contact-form">
+        <div class="header">
+            <img src="https://media-hosting.imagekit.io/80e798ed650a444b/01c288c8-f82a-4531-ae89-344604f11668.jpg?Expires=1838718492&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=E7QwJPXUHvIFEkOI6sXODj4TwgRJzZKcglMmxqwlH25IRyE5nOtiC6DZVB1noQfdwztrklCHY-HTilnoFB8SEirLLYBpmPYEhZPGII7xMiyt-7qkWlM8Gkk-XkiKBsEwIWeMC9dBxV1vjX~~PB401r2wrZY7hNNeUSsP0NfS6hP3fLbEWQEj8XTME7aWyf--fKEmICLeigReTSfD~jnWCgXnTzGOa6EFZTxODY9LMmWhrbJ3ngrUougzY41~oiAG5~kaPX3AgRWWoCBgAdAWkYm9yQVDBMrFi3WMzQfmFQm~Of29uUaEtg2cCei8NkwCBQ~ENU722qIqRT~x5fXZtQ__" title="Chethina Jayawardhana" class="profile-img">
+            <h1 style="font-family:Snell Roundhand, cursive">Chethina Jayawardhana</h1>
+            <p11 style="font-family:Euclid Circular B Regular,sans-serif;">Founder</p11>
+        </div>
+        <h22 style="font-family:cursive;">Or leave us your contact and I'll<br> get back to you right away</h22>
+        <form>
+          <br>
+            <label for="name">I am</label>
+            <input type="text1" id="name" name="name" placeholder="Chethina Jayawardhana">
+            <label for="email">Please reach me via my email</label>
+            <input type="email1" id="email" name="email" placeholder="canvasindustries@gmail.com">
+            <label for="phone">and <br>my phone number</label>
+            <div class="phone-input">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/800px-Flag_of_Sri_Lanka.svg.png" title="Sri Lanka Flag" class="flag-icon">
+                <input type="text2" id="phone" name="phone" placeholder="+94 XX XX XX XXX ">
+            </div>
+            <a class="active" href="C:\Users\user\Documents\Getting Started\.vscode\Chethina.html" onclick="myFunction('C:\Users\user\Documents\Getting Started\.vscode\Chethina.html')"></a>
+            <button22 type="submit">Submit Contact Info</button22>
+        </form>
+      </center>
+    </div>
+</body>
+<style type="text/css">
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: #dfdbc5;
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p11 {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+}
+
+h22 {
+    font-family: 'sans-serif', cursive;
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+label {
+    font-family: 'sans-serif', cursive;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input[type="text1"]#name {
+    font-family: 'sans-serif', cursive;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 49%;
+}
+input[type="email1"]#email {
+    font-family: 'sans-serif', cursive;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 57%;
+}
+
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.flag-icon {
+    width: 40px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+input[type="text2"]#phone {
+    font-family: 'sans-serif', cursive;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    width: 80%;
+}
+
+button22 {
+    font-family: 'sans-serif', cursive;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #A38772;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button22:hover {
+    background-color: #896A58;
+}
+</style>
+</head>
+<br>
+ <head> 
+<style>
+button.back-to-top{
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #fff;
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  border-radius: 50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  color: transparent;
+  clear: both;
+  visibility: hidden;
+  position: fixed;
+  cursor: pointer;
+  display: block;
+  border: none;
+  right: 50px;
+  bottom: 75px;
+  font-size: 0px;
+  outline: 0 !important;
+  z-index: 99;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+button.back-to-top:hover,
+button.back-to-top:active,
+button.back-to-top:focus,{
+  outline: 0 !important;
+}
+button.back-to-top::before,
+button.back-to-top::after {
+  content: "";
+    display: block;
+    vertical-align: middle;
+    border-bottom: solid 10px black;
+    border-left: solid 10px transparent;
+    line-height: 0;
+    border-right: solid 10px transparent;
+    height: 0;
+    margin: 18px auto 0;
+    width: 0;
+  border-radius:20px;
+  visibility: hidden;
+}
+button.back-to-top.show::after,
+button.back-to-top.show::before{
+  visibility: visible;
+}
+button.back-to-top::after {
+  border-bottom-color:#fff;
+      position: relative;
+  top:-24px;
+}
+button.back-to-top.show {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #567257;
+  backdrop-filter: blur(55px);
+  right: 30px;
+  bottom: 50px;
+  height: 50px;
+  width: 50px;
+  visibility: visible;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+button.back-to-top.show:active {
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+}
+</style>
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+</head>
+<body translate="no">
+  <div class="contentDiv" id="content">
+<button class="back-to-top" type="button"></button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script id="rendered-js" >
+// Back to top
+var amountScrolled = 200;
+var amountScrolledNav = 25;
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > amountScrolled) {
+    $('button.back-to-top').addClass('show');
+  } else {
+    $('button.back-to-top').removeClass('show');
+  }
+});
+
+$('button.back-to-top').click(function () {
+  $('html, body').animate({
+    scrollTop: 0 },
+  800);
+  return false;
+});
+//# sourceURL=pen.js
+    </script> 
+</body>
+<center>
+<div class="relative h-12 w-12 cursor-pointer p-0.5 mc7re5">
+  <div class="aRc_7q"></div>
+  <div class="h-6 w-full NwoKpJ"></div>
+  <svg class="_8vc7Q8 absolute left-1/2 top-1/2 h-9 w-9 -translate-x-1/2 -translate-y-1/3" width="30" height="36" viewBox="0 0 30 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.5 9L15 4.5L23.5 9H30L15 0L0 9H6.5Z" fill="#F6EAFF"></path>
+    <path d="M11.8465 16L15.0003 14.1791L18.1542 16H23.6149L15.0003 11.0264L6.38574 16H11.8465Z" fill="#D478FF"></path>
+    <path d="M11.8465 23.9736L15.0003 22.1528L18.1542 23.9736H23.6149L15.0003 19L6.38574 23.9736H11.8465Z" fill="#C800FF"></path>
+    <defs>
+      <linearGradient id="paint0_linear_4323_2715" x1="15" y1="0.963776" x2="15" y2="35.6048" gradientUnits="userSpaceOnUse">
+      <stop offset="0.248525" stop-color="white"></stop>
+      <stop offset="0.248948" stop-color="white" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+</svg>
+</div>
+</center>
+<style>/* REMOVE THIS, USE YOUR OWN  */
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: yellow light;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  color: #333;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .col {
+  flex: 0;
+  margin: 0 20px;
+}
+.footer .column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .column ul li {
+  margin-bottom: 10px;
+}
+.footer .column ul li a {
+  color: #666;
+  text-decoration: none;
+}
+.footer .column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-icons {
+  display: inline-flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.footer .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+.footer-bottom {
+  background-color: #dfdbc5;
+  padding: 149px 30px;
+  font-size: 14px;
+  color: #0d0d0d;
+  border-radius: 40px;
+}
+</style>
+<!-- FOOTER START -->
+<body>
+    <footer>
+        <div class="footer">
+            <div class="column">
+              <br>
+              <br>
+              <br>
+                <h3 style="color:black;"><font  size="+4">Canvas</h3></font>
+                <p style="font-family:Lucida Handwriting"><font color="black">Subscribe to newsletters for<br>more updates</p>
+                <div class="social-icons"></font>
+                  <center>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" title="Instagram"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" title="Facebook"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" title="LinkedIn"></a></center>
+                </div>
+            </div>
+            <div class="column">
+                <h3 style="color:black;">DOMAINS</h3>
+                <ul>
+                    <li><a href="#">Agriculture</a></li>
+                    <li><a href="#">Banking</a></li>
+                    <li><a href="#">Retail</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3 style="color:black;">COMPANY</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3 style="color:black;">CAREERS</h3>
+                <ul>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Hiring process</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="column">
+                <h3 style="color:black;">RESOURCES</h3>
+                <ul>
+                </ul>
+            </div>
+          </h3>
+        </div>
+        <div class="footer-bottom"></div>
+            <p style="font-family:cursive;">Copyright © 2025 Canvas Industries Pty Ltd. All rights reserved.</p>
+            <p style="font-family:cursive;">Proudly designed and developed by the Che Jay.</p>
+        </div>
+    </footer>
+</body>
+        <!-- copyright row ends -->
+        <!-- footer ends-->
+    <!-- END OF FOOTER -->
+  <!--2025 now updated-->
+</body>
+</html>
